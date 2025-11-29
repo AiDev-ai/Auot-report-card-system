@@ -1,0 +1,749 @@
+{
+  "Class  II": {
+    "sheet_name": "Class  II",
+    "mid_exists": true,
+    "final_exists": true,
+    "students_found": 21,
+    "sample_data": {
+      "AAH- 170": {
+        "id": "AAH- 170",
+        "name": "Ali Raza",
+        "row": 6,
+        "col": "B",
+        "mid_marks": [
+          88,
+          94,
+          88,
+          84,
+          "B",
+          43,
+          39
+        ],
+        "final_marks": [
+          88,
+          94,
+          88,
+          84,
+          "B",
+          43,
+          39
+        ],
+        "class": "II"
+      },
+      "AAH- 172": {
+        "id": "AAH- 172",
+        "name": "Abdul Ahad",
+        "row": 7,
+        "col": "B",
+        "mid_marks": [
+          90,
+          85,
+          85,
+          93,
+          "B",
+          40,
+          41
+        ],
+        "final_marks": [
+          90,
+          85,
+          85,
+          93,
+          "B",
+          40,
+          41
+        ],
+        "class": "II"
+      },
+      "AAH-174": {
+        "id": "AAH-174",
+        "name": "Abdul Sattar",
+        "row": 8,
+        "col": "B",
+        "mid_marks": [
+          92.5,
+          84.5,
+          92,
+          81,
+          "A",
+          47,
+          45.5
+        ],
+        "final_marks": [
+          92.5,
+          84.5,
+          92,
+          81,
+          "A",
+          47,
+          45.5
+        ],
+        "class": "II"
+      }
+    }
+  },
+  "Class III": {
+    "sheet_name": "Class III",
+    "mid_exists": true,
+    "final_exists": true,
+    "students_found": 32,
+    "sample_data": {
+      "AAH-99": {
+        "id": "AAH-99",
+        "name": "Muzammil",
+        "row": 6,
+        "col": "B",
+        "mid_marks": [
+          71,
+          86,
+          82,
+          85,
+          "A",
+          42.5,
+          45
+        ],
+        "final_marks": [
+          71,
+          86,
+          82,
+          85,
+          "A",
+          42.5,
+          45
+        ],
+        "class": "III"
+      },
+      "AAH-103": {
+        "id": "AAH-103",
+        "name": "Sikandar Ali",
+        "row": 7,
+        "col": "B",
+        "mid_marks": [
+          89.5,
+          61,
+          68,
+          95,
+          "B",
+          39,
+          50
+        ],
+        "final_marks": [
+          89.5,
+          61,
+          68,
+          95,
+          "B",
+          39,
+          50
+        ],
+        "class": "III"
+      },
+      "AAH-106": {
+        "id": "AAH-106",
+        "name": "Mudasir",
+        "row": 8,
+        "col": "B",
+        "mid_marks": [
+          84,
+          64,
+          88,
+          96,
+          "B",
+          50,
+          49.5
+        ],
+        "final_marks": [
+          84,
+          64,
+          88,
+          96,
+          "B",
+          50,
+          49.5
+        ],
+        "class": "III"
+      }
+    }
+  },
+  "Class IV": {
+    "sheet_name": "Class IV",
+    "mid_exists": true,
+    "final_exists": true,
+    "students_found": 11,
+    "sample_data": {
+      "AAH-075": {
+        "id": "AAH-075",
+        "name": "Arman",
+        "row": 6,
+        "col": "B",
+        "mid_marks": [
+          4,
+          52,
+          27.5,
+          23,
+          "C",
+          20,
+          22
+        ],
+        "final_marks": [
+          4,
+          52,
+          27.5,
+          23,
+          "C",
+          20,
+          22
+        ],
+        "class": "IV"
+      },
+      "AAH-077": {
+        "id": "AAH-077",
+        "name": "Muhammad Uzair",
+        "row": 7,
+        "col": "B",
+        "mid_marks": [
+          43,
+          45,
+          54.5,
+          48,
+          "B",
+          28,
+          20
+        ],
+        "final_marks": [
+          43,
+          45,
+          54.5,
+          48,
+          "B",
+          28,
+          20
+        ],
+        "class": "IV"
+      },
+      "AAH-081": {
+        "id": "AAH-081",
+        "name": "Rehman Ali",
+        "row": 8,
+        "col": "B",
+        "mid_marks": [
+          78,
+          84.5,
+          79,
+          87.5,
+          "A",
+          38,
+          41
+        ],
+        "final_marks": [
+          78,
+          84.5,
+          79,
+          87.5,
+          "A",
+          38,
+          41
+        ],
+        "class": "IV"
+      }
+    }
+  },
+  "Class V": {
+    "sheet_name": "Class V",
+    "mid_exists": true,
+    "final_exists": true,
+    "students_found": 26,
+    "sample_data": {
+      "AAH-076": {
+        "id": "AAH-076",
+        "name": "Muhammad Asim",
+        "row": 6,
+        "col": "B",
+        "mid_marks": [
+          8,
+          24,
+          18,
+          2,
+          "B",
+          15.5,
+          14
+        ],
+        "final_marks": [
+          8,
+          24,
+          18,
+          2,
+          "B",
+          15.5,
+          14
+        ],
+        "class": "V"
+      },
+      "AAH-078": {
+        "id": "AAH-078",
+        "name": "Hasnain Ali",
+        "row": 7,
+        "col": "B",
+        "mid_marks": [
+          16,
+          34.5,
+          35,
+          22,
+          "C",
+          21.5,
+          24
+        ],
+        "final_marks": [
+          16,
+          34.5,
+          35,
+          22,
+          "C",
+          21.5,
+          24
+        ],
+        "class": "V"
+      },
+      "AAH-079": {
+        "id": "AAH-079",
+        "name": "Kashan",
+        "row": 8,
+        "col": "B",
+        "mid_marks": [
+          "Absent",
+          "Absent",
+          "Absent",
+          "Absent",
+          "Absent",
+          "Absent",
+          "Absent"
+        ],
+        "final_marks": [
+          "Absent",
+          "Absent",
+          "Absent",
+          "Absent",
+          "Absent",
+          "Absent",
+          "Absent"
+        ],
+        "class": "V"
+      }
+    }
+  },
+  "Class VI": {
+    "sheet_name": "Class VI",
+    "mid_exists": true,
+    "final_exists": true,
+    "students_found": 9,
+    "sample_data": {
+      "AAH- 80": {
+        "id": "AAH- 80",
+        "name": "Farhan Ali",
+        "row": 6,
+        "col": "B",
+        "mid_marks": [
+          30,
+          50,
+          54,
+          57.5,
+          "B",
+          0,
+          38.5
+        ],
+        "final_marks": [
+          30,
+          50,
+          54,
+          57.5,
+          "B",
+          0,
+          38.5
+        ],
+        "class": "VI"
+      },
+      "AAH- 86": {
+        "id": "AAH- 86",
+        "name": "Asghar Ali",
+        "row": 7,
+        "col": "B",
+        "mid_marks": [
+          40,
+          48,
+          42,
+          31,
+          "B",
+          23,
+          28.5
+        ],
+        "final_marks": [
+          40,
+          48,
+          42,
+          31,
+          "B",
+          23,
+          28.5
+        ],
+        "class": "VI"
+      },
+      "AAH- 98": {
+        "id": "AAH- 98",
+        "name": "Abdul Samad",
+        "row": 8,
+        "col": "B",
+        "mid_marks": [
+          52,
+          81.5,
+          60.5,
+          38,
+          "C",
+          29.5,
+          34
+        ],
+        "final_marks": [
+          52,
+          81.5,
+          60.5,
+          38,
+          "C",
+          29.5,
+          34
+        ],
+        "class": "VI"
+      }
+    }
+  },
+  "Class VII": {
+    "sheet_name": "Class VII",
+    "mid_exists": true,
+    "final_exists": true,
+    "students_found": 7,
+    "sample_data": {
+      "AAH-006": {
+        "id": "AAH-006",
+        "name": "Faizan Ali",
+        "row": 6,
+        "col": "B",
+        "mid_marks": [
+          90.5,
+          100,
+          97,
+          99,
+          "A",
+          48.5,
+          50
+        ],
+        "final_marks": [
+          90.5,
+          100,
+          97,
+          99,
+          "A",
+          48.5,
+          50
+        ],
+        "class": "VII"
+      },
+      "AAH-031": {
+        "id": "AAH-031",
+        "name": "Arslan Ali",
+        "row": 7,
+        "col": "B",
+        "mid_marks": [
+          42.5,
+          68,
+          54,
+          41,
+          "B",
+          24,
+          39.5
+        ],
+        "final_marks": [
+          42.5,
+          68,
+          54,
+          41,
+          "B",
+          24,
+          39.5
+        ],
+        "class": "VII"
+      },
+      "AAH-088": {
+        "id": "AAH-088",
+        "name": "Farhan Ali",
+        "row": 8,
+        "col": "B",
+        "mid_marks": [
+          40,
+          40,
+          62,
+          27,
+          "E",
+          33,
+          21.5
+        ],
+        "final_marks": [
+          40,
+          40,
+          62,
+          27,
+          "E",
+          33,
+          21.5
+        ],
+        "class": "VII"
+      }
+    }
+  },
+  "Class VIII": {
+    "sheet_name": "Class VIII",
+    "mid_exists": true,
+    "final_exists": true,
+    "students_found": 19,
+    "sample_data": {
+      "AAH-001": {
+        "id": "AAH-001",
+        "name": "Shan Ali",
+        "row": 6,
+        "col": "B",
+        "mid_marks": [
+          78,
+          95,
+          95,
+          89,
+          "A",
+          47,
+          49
+        ],
+        "final_marks": [
+          78,
+          95,
+          95,
+          89,
+          "A",
+          47,
+          49
+        ],
+        "class": "VIII"
+      },
+      "AAH-008": {
+        "id": "AAH-008",
+        "name": "Muzammil",
+        "row": 7,
+        "col": "B",
+        "mid_marks": [
+          56,
+          69.5,
+          84.5,
+          74.5,
+          "A",
+          32,
+          36.5
+        ],
+        "final_marks": [
+          56,
+          69.5,
+          84.5,
+          74.5,
+          "A",
+          32,
+          36.5
+        ],
+        "class": "VIII"
+      },
+      "AAH-013": {
+        "id": "AAH-013",
+        "name": "Muhammad Bilal",
+        "row": 8,
+        "col": "B",
+        "mid_marks": [
+          43,
+          44,
+          76,
+          53,
+          "C",
+          29.5,
+          36
+        ],
+        "final_marks": [
+          43,
+          44,
+          76,
+          53,
+          "C",
+          29.5,
+          36
+        ],
+        "class": "VIII"
+      }
+    }
+  },
+  "Class IX": {
+    "sheet_name": "Class IX",
+    "mid_exists": true,
+    "final_exists": true,
+    "students_found": 7,
+    "sample_data": {
+      "AAH-002": {
+        "id": "AAH-002",
+        "name": "Abid Khan",
+        "row": 6,
+        "col": "B",
+        "mid_marks": [
+          91,
+          93,
+          94,
+          93,
+          94,
+          95.5,
+          "B"
+        ],
+        "final_marks": [
+          91,
+          93,
+          94,
+          93,
+          94,
+          95.5,
+          "B"
+        ],
+        "class": "IX"
+      },
+      "AAH-011": {
+        "id": "AAH-011",
+        "name": "Muhammad Khizer",
+        "row": 7,
+        "col": "B",
+        "mid_marks": [
+          40.5,
+          48,
+          64,
+          46,
+          66,
+          60,
+          "C"
+        ],
+        "final_marks": [
+          40.5,
+          48,
+          64,
+          46,
+          66,
+          60,
+          "C"
+        ],
+        "class": "IX"
+      },
+      "AAH-030": {
+        "id": "AAH-030",
+        "name": "Mohsin Ali",
+        "row": 8,
+        "col": "B",
+        "mid_marks": [
+          65.5,
+          74,
+          42,
+          65.5,
+          67,
+          85,
+          "A"
+        ],
+        "final_marks": [
+          65.5,
+          74,
+          42,
+          65.5,
+          67,
+          85,
+          "A"
+        ],
+        "class": "IX"
+      }
+    }
+  },
+  "Class X": {
+    "sheet_name": "Class X",
+    "mid_exists": true,
+    "final_exists": true,
+    "students_found": 3,
+    "sample_data": {
+      "AAH-060": {
+        "id": "AAH-060",
+        "name": "Sekander Bux",
+        "row": 6,
+        "col": "B",
+        "mid_marks": [
+          36,
+          53.5,
+          53,
+          71,
+          68,
+          83.5,
+          "A"
+        ],
+        "final_marks": [
+          36,
+          53.5,
+          53,
+          71,
+          68,
+          83.5,
+          "A"
+        ],
+        "class": "X"
+      },
+      "AAH-152": {
+        "id": "AAH-152",
+        "name": "Abdul Qalam",
+        "row": 7,
+        "col": "B",
+        "mid_marks": [
+          54,
+          85.5,
+          82,
+          59,
+          74,
+          83.5,
+          "A"
+        ],
+        "final_marks": [
+          54,
+          85.5,
+          82,
+          59,
+          74,
+          83.5,
+          "A"
+        ],
+        "class": "X"
+      },
+      "AAH-158": {
+        "id": "AAH-158",
+        "name": "Abdul Salam",
+        "row": 8,
+        "col": "B",
+        "mid_marks": [
+          87.5,
+          98,
+          99.5,
+          93,
+          92,
+          94,
+          "A"
+        ],
+        "final_marks": [
+          87.5,
+          98,
+          99.5,
+          93,
+          92,
+          94,
+          "A"
+        ],
+        "class": "X"
+      }
+    }
+  }
+}

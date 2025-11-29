@@ -1,0 +1,165 @@
+{
+  "II": {
+    "subjects": [
+      "English",
+      "Urdu",
+      "Mathematics",
+      "GK"
+    ],
+    "subject_count": 4,
+    "expected_subjects": 4,
+    "total_marks": 400,
+    "expected_total": 400,
+    "has_computer": false,
+    "student_count": 21,
+    "subjects_match": true,
+    "total_marks_match": true
+  },
+  "III": {
+    "subjects": [
+      "English",
+      "Urdu",
+      "Mathematics",
+      "GK"
+    ],
+    "subject_count": 4,
+    "expected_subjects": 4,
+    "total_marks": 400,
+    "expected_total": 400,
+    "has_computer": false,
+    "student_count": 31,
+    "subjects_match": true,
+    "total_marks_match": true
+  },
+  "IV": {
+    "subjects": [
+      "English",
+      "Urdu",
+      "Science",
+      "Mathematics",
+      "Computer",
+      "Islamiat",
+      "Social Studies"
+    ],
+    "subject_count": 7,
+    "expected_subjects": 7,
+    "total_marks": 550,
+    "expected_total": 550,
+    "has_computer": true,
+    "student_count": 11,
+    "subjects_match": true,
+    "total_marks_match": true
+  },
+  "V": {
+    "subjects": [
+      "English",
+      "Urdu",
+      "Science",
+      "Mathematics",
+      "Computer",
+      "Islamiat",
+      "Social Studies"
+    ],
+    "subject_count": 7,
+    "expected_subjects": 7,
+    "total_marks": 550,
+    "expected_total": 550,
+    "has_computer": true,
+    "student_count": 26,
+    "subjects_match": true,
+    "total_marks_match": true
+  },
+  "VI": {
+    "subjects": [
+      "English",
+      "Urdu",
+      "Science",
+      "Mathematics",
+      "Computer",
+      "Islamiat",
+      "Social Studies"
+    ],
+    "subject_count": 7,
+    "expected_subjects": 7,
+    "total_marks": 550,
+    "expected_total": 550,
+    "has_computer": true,
+    "student_count": 9,
+    "subjects_match": true,
+    "total_marks_match": true
+  },
+  "VII": {
+    "subjects": [
+      "English",
+      "Urdu",
+      "Science",
+      "Mathematics",
+      "Computer",
+      "Islamiat",
+      "Social Studies"
+    ],
+    "subject_count": 7,
+    "expected_subjects": 7,
+    "total_marks": 550,
+    "expected_total": 550,
+    "has_computer": true,
+    "student_count": 7,
+    "subjects_match": true,
+    "total_marks_match": true
+  },
+  "VIII": {
+    "subjects": [
+      "English",
+      "Urdu",
+      "Science",
+      "Mathematics",
+      "Computer",
+      "Islamiat",
+      "Social Studies"
+    ],
+    "subject_count": 7,
+    "expected_subjects": 7,
+    "total_marks": 550,
+    "expected_total": 550,
+    "has_computer": true,
+    "student_count": 19,
+    "subjects_match": true,
+    "total_marks_match": true
+  },
+  "IX": {
+    "subjects": [
+      "English",
+      "Urdu",
+      "Physics",
+      "Mathematics",
+      "Computer",
+      "Islamiat"
+    ],
+    "subject_count": 6,
+    "expected_subjects": 6,
+    "total_marks": 500,
+    "expected_total": 500,
+    "has_computer": true,
+    "student_count": 7,
+    "subjects_match": true,
+    "total_marks_match": true
+  },
+  "X": {
+    "subjects": [
+      "English",
+      "Urdu",
+      "Physics",
+      "Mathematics",
+      "Computer",
+      "Islamiat"
+    ],
+    "subject_count": 6,
+    "expected_subjects": 6,
+    "total_marks": 500,
+    "expected_total": 500,
+    "has_computer": true,
+    "student_count": 3,
+    "subjects_match": true,
+    "total_marks_match": true
+  }
+}

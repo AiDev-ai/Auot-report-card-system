@@ -1,0 +1,45 @@
+REPORT CARD SYSTEM - HOW TO RUN
+===============================
+
+FOR WINDOWS USERS:
+------------------
+1. Double-click on "start_report_card.bat"
+2. Wait for automatic setup to complete
+3. The Report Card System will start automatically
+
+FOR MAC/LINUX USERS:
+--------------------
+1. Double-click on "start_report_card.sh" 
+   OR
+   Open terminal and run: ./start_report_card.sh
+2. Wait for automatic setup to complete
+3. The Report Card System will start automatically
+
+SMART FEATURES:
+---------------
+✓ Auto-installs Python if not found
+✓ Reuses existing environment (no duplicate setup)
+✓ Only installs packages if needed
+✓ Checks everything automatically
+✓ No manual intervention required
+
+WHAT HAPPENS AUTOMATICALLY:
+---------------------------
+✓ Detects if Python is installed (installs if missing)
+✓ Finds existing virtual environment (creates if missing)
+✓ Checks if packages are installed (installs if missing)
+✓ Runs the Report Card System
+
+COMPLETELY AUTOMATIC!
+Just double-click and everything is handled.
+
+REQUIREMENTS:
+-------------
+- Internet connection (for first-time setup only)
+- Administrator rights (for Python installation if needed)
+
+The script is intelligent:
+- If Python exists → Uses it
+- If environment exists → Reuses it  
+- If packages exist → Skips installation
+- Everything is optimized for speed!

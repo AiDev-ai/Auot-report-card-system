@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Card System - Fixed Totals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Left Panel - Exact replica -->
+        <div class="left-panel">
+            <div class="students-header">
+                <h3 id="studentsCount">All 0 Students</h3>
+            </div>
+            
+            <div class="search-section">
+                <label>Search:</label>
+                <input type="text" id="searchEntry" onkeyup="filterStudents()">
+            </div>
+            
+            <div class="listbox-container">
+                <select id="studentListbox" size="25" ondblclick="onStudentSelect()">
+                </select>
+            </div>
+        </div>
+
+        <!-- Right Panel - Exact replica -->
+        <div class="right-panel">
+            <!-- Control Frame -->
+            <div class="control-frame">
+                <button onclick="loadExcelFile()" class="load-btn">📁 Load Excel</button>
+                <button onclick="showSelectedReport()">Show Selected</button>
+                <button onclick="refreshData()" class="refresh-btn">🔄 Refresh Data</button>
+                <button onclick="directPrint()" class="print-btn">🖨️ Direct Print</button>
+                <button onclick="saveHTML()" class="save-btn">💾 Save HTML</button>
+                <div class="current-student" id="currentStudentLabel">Select a student from the list</div>
+            </div>
+
+            <!-- Report Card Area -->
+            <div class="report-card-container">
+                <div class="report-card">
+                    <!-- Header -->
+                    <div class="header-frame">
+                        <div class="top-row">
+                            <div class="logo-section">
+                                <div class="logo-placeholder">LOGO</div>
+                            </div>
+                            <div class="info-section">
+                                <div class="school-name">ALKHIDMAT SCHOOL, MANNAN & QAZI CAMPUS, HALA</div>
+                                <div class="school-address">Near Bhitshah Bus Stop, Main National Highway 05, Hala</div>
+                                <div class="school-contact">Phone # 0333 112 0663    Email: alkhidmataghosh@alkhidmat.org</div>
+                            </div>
+                        </div>
+                        <div class="exam-title">Final Term Examination - March 2025</div>
+                        <div class="report-title">Report Card for Academic Year 2024-25</div>
+                    </div>
+
+                    <!-- Student Info -->
+                    <div class="student-frame">
+                        <div class="info-grid">
+                            <span class="label">Student's Name:</span>
+                            <span id="nameLabel" class="value"></span>
+                            <span class="label">Class:</span>
+                            <span id="classLabel" class="value"></span>
+                            <span class="label">Aghosh ID:</span>
+                            <span id="idLabel" class="value"></span>
+                        </div>
+                    </div>
+
+                    <!-- Marks Table -->
+                    <div class="table-container">
+                        <table id="marksTable" class="marks-table">
+                            <thead>
+                                <tr>
+                                    <th class="col-sr">Sr. #</th>
+                                    <th class="col-subject">Subjects</th>
+                                    <th class="col-term1">1st Term<br>100/50</th>
+                                    <th class="col-weighted1">Weighted<br>20%</th>
+                                    <th class="col-term2">2nd Term<br>100/50</th>
+                                    <th class="col-weighted2">Weighted<br>80%</th>
+                                    <th class="col-aggregate">Aggregate</th>
+                                    <th class="col-percentage">Percentage</th>
+                                    <th class="col-grade">Grade</th>
+                                    <th class="col-remarks">Remarks</th>
+                                </tr>
+                            </thead>
+                            <tbody id="marksTableBody">
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="footer-frame">
+                        <div class="grading-system">
+                            <div class="grading-title">Grading System</div>
+                            <div class="grade-line1">91-100: A+    80-90: A    70-79: B</div>
+                            <div class="grade-line2">60-69: C    50-59: D    35-49: E    0-34: F</div>
+                        </div>
+                        <div class="results-section">
+                            <div class="result-row">
+                                <span>Remarks:</span>
+                                <span id="passFailLabel">Pass</span>
+                            </div>
+                            <div class="result-row">
+                                <span>Grade:</span>
+                                <span id="gradeLabel">A+</span>
+                            </div>
+                            <div class="result-row">
+                                <span>Overall %:</span>
+                                <span id="overallLabel"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Teacher's Remarks -->
+                    <div class="remarks-frame">
+                        <div class="remarks-header">Teacher's Remarks:</div>
+                        <textarea id="teacherRemarks" placeholder="Enter teacher's remarks here..."></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- File input for Excel -->
+    <input type="file" id="excelFile" accept=".xlsx,.xls" style="display: none;" onchange="handleFileUpload(event)">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
